@@ -1,0 +1,101 @@
+.body {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+
+.top {
+  border: 20%;
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.ltm {
+  float: left;
+  display: inline;
+  padding: 15px;
+}
+
+.rtm {
+  float: right;
+  display: inline;
+  padding: 15px;
+}
+
+.ltm, .rtm {
+  color: #756C6C;
+}
+
+.signin {
+  text-align: center;
+  background-color: #4285f4;
+  font-style: bold;
+  color: white;
+  border-radius: 4px;
+  min-width: 60px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.searchbar {
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  border-radius: 40px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 65px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#gsrch, #lucky{
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input {
+  outline: none !important;
+  border: none !important;
+  border-color: transparent !important;
+  appearance: none !important;
+  border-width: 0px !important;
+  background-color: White !important;
+  box-shadow: none !important;
+  padding: 6px !important;
+  margin-top: 8px !important;
+  margin-right: 16px !important;
+  font-size: 20px !important;
+  min-width: 500px !important;
+}

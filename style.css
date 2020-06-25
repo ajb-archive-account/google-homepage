@@ -91,3 +91,23 @@ input {
   text-align: center;
   cursor: pointer;
 }
+
+.botnav2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: white;
+  text-align: center;
+}
+
+.botnav1 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: white;
+  text-align: center;
+}
